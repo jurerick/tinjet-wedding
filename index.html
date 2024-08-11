@@ -95,6 +95,12 @@
 		.margin-5 {
 			margin: .5em;
 		}
+
+		@media (max-width: 575.98px) {
+			#qr-codes {
+				display: block !important;
+			}
+		 }
 	</style>
 	<meta name="robots" content="max-image-preview:large">
 	<link rel="alternate" type="application/rss+xml" title="Wedding Website » Feed"
@@ -1055,7 +1061,7 @@
 											<div class="elementor-widget-container">
 												<h2 class="elementor-heading-title elementor-size-default el-messiri-jporras-custom"
 													style="color: rgb(66, 64, 64);">
-													Chapel on the hill - Don Bosco Batulao, Brgy. Cahil, Calaca Batangas.
+													Chapel on the Hill - Don Bosco Batulao, Brgy. Cahil, Calaca Batangas.
 												</h2>
 											</div>
 										</div>
@@ -1304,7 +1310,7 @@
 											<div class="elementor-widget-container">
 												<h2 class="elementor-heading-title elementor-size-default"
 													style="color: rgb(66, 64, 64);">
-													Jurie Porras proxy Clark Juancho
+													Clark Juancho
 													<br>
 													Marilou Porras
 												</h2>
@@ -1390,10 +1396,10 @@
 													Manuel Adan <br>
 													Arturo Scuoto <br>
 													Ferdie Aguilar <br>
-													Kuya Gaudencio "Ding" Alipalo <br>
-													Jasmine Abellar <br>
+													Ma. Andrea Alipalo <br>
+													Alexader Abellar Jr <br>
 													Nonilo Siscar <br>
-													Kuya Laverenti "Bert" Zamora <br>
+													Maria Lourdes Taytay <br>
 													Alvin Mende <br>
 													Leonardo Valmorida <br>
 													Michael Neeley
@@ -1420,11 +1426,11 @@
 												<h2 class="elementor-heading-title elementor-size-default"
 													style="color: rgb(66, 64, 64);">
 													Sandra Greenhill <br>
-													Atty Arcely Rubin<br>
+													Atty Arceli Rubin<br>
 													Concordia Scuoto <br>
 													Jenny Aguilar <br>
-													Ate Dian Alipalo <br>
-													Alexander Tana Abellar Jr <br>
+													Ma. Andrea Alipalo <br>
+													Alexander Abellar Jr <br>
 													Althea Betuing <br>
 													Kuya Bert Wife <br>
 													Connie Mende <br>
@@ -1539,7 +1545,7 @@
 													style="color: rgb(66, 64, 64);">
 													Antonio Navidad <br>
 													Jeremy Dela Cruz <br>
-													Allen Montervigen <br>
+													Allen Montevirgen <br>
 													Mitz Salogo <br>
 												</h2>
 											</div>
@@ -1849,11 +1855,12 @@
 							data-widget_type="heading.default">
 							<div class="elementor-widget-container">
 								<h2 class="elementor-heading-title elementor-size-default"
-									style="color: rgb(66, 64, 64);">Sophia Nicole Elizarde
-									<br>
-									Chelsea Mae Bultron
-									<br>
-									Miel del Vera
+									style="color: rgb(66, 64, 64);">
+									Aedyne Casabar <br />
+									Francine Therese Valmorida <br />
+									Gaile Andromeda Condez <br />
+									Sophia Kate Zamora <br />
+									Georgina Erich Ducut <br />
 								</h2>
 							</div>
 						</div>
@@ -2062,11 +2069,15 @@
 			</div>
 		</section>
 		<section
+			id="wedding-video"
 			class="elementor-section elementor-top-section elementor-element elementor-element-153b5944 elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
 			data-id="153b5944" data-element_type="section"
 			data-settings="{&quot;agl_in_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:1000,&quot;sizes&quot;:[]},&quot;agl_in_delay&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]}}">
-			<div class="elementor-container elementor-column-gap-no" style="margin: 1em auto">
-				<iframe src="https://drive.google.com/file/d/1AB5E60JJcf_nE4HiS6tspkMx-m78gLWy/preview" width="640" height="480" allow="autoplay"></iframe>
+			<div class="elementor-container elementor-column-gap-no" style="margin: 2em auto 3em auto">
+				<!-- <iframe src="https://drive.google.com/file/d/1AB5E60JJcf_nE4HiS6tspkMx-m78gLWy/preview" width="640" height="480" allow="autoplay"></iframe> -->
+				<a href="https://www.youtube.com/watch?v=TuvL_tsWGmg" target="_blank">
+					<img src="./Sample Website – Wedding Website_files/img/yt-cover-2.png" alt="Teejay & Kristine" />
+				</a>
 			</div>
 		</section>
 		<section
@@ -2518,7 +2529,7 @@
 							data-widget_type="image.default" style="visibility: visible;">
 							<div class="elementor-widget-container">
 								<img decoding="async"
-									src="./Sample Website – Wedding Website_files/img/color-theme-resized.png"
+									src="./Sample Website – Wedding Website_files/img/theme-color-resized.png"
 									title="Dress Guide Color" alt="Dress Guide Color"
 									loading="lazy" style="visibility: hidden;">
 							</div>
@@ -2619,10 +2630,17 @@
 							data-widget_type="image-carousel.default" aria-roledescription="carousel"
 							aria-label="Carousel | Horizontal scrolling: Arrow Left &amp; Right">
 							<div class="elementor-widget-container">
-								<div class="elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
-									dir="ltr">
-									<div style="text-align: center;">
-										<img src="./Sample Website – Wedding Website_files/img/money-2.png" width="320px" />
+								<div id="qr-codes"
+									class="elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+									dir="ltr"
+									style="display: flex;">
+									<div style="text-align: center; margin: 1em">
+										<img style="border-radius: .5em;" 
+											src="./Sample Website – Wedding Website_files/img/gcash-qr.png" width="320px" />
+									</div>
+									<div style="text-align: center; margin: 1em">
+										<img style="border-radius: .5em;"  
+											src="./Sample Website – Wedding Website_files/img/rcbc-qr.png" width="320px" />
 									</div>
 									<div class="elementor-swiper-button elementor-swiper-button-prev" role="button"
 										tabindex="0" aria-label="Previous slide"
@@ -2842,7 +2860,8 @@
 		</section>
 		<section
 			class="elementor-section elementor-top-section elementor-element elementor-element-90e773f elementor-section-height-min-height elementor-section-items-top elementor-section-content-top elementor-section-boxed elementor-section-height-default"
-			data-id="90e773f" data-element_type="section" id="rsvp"
+			data-id="90e773f" data-element_type="section" 
+			id="rsvp"
 			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;animation_mobile&quot;:&quot;none&quot;,&quot;agl_in_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:1000,&quot;sizes&quot;:[]},&quot;agl_in_delay&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]}}">
 			<div class="elementor-container elementor-column-gap-no">
 				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eecc598"
